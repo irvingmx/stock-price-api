@@ -14,6 +14,9 @@ public interface SharePriceService {
     @GetMapping("/companies/{isin}")
     Company getCompany(@PathVariable String isin);
 
+    @GetMapping("/companies/{isin}/shareprices")
+    SharePrice getSharePrice(@PathVariable String isin);
+
     @GetMapping("/companies/{isin}/shareprices/{seriesType}")
     List<SharePrice> getSharePrices(@PathVariable String isin, @PathVariable SeriesTimeType seriesTimeType);
 
