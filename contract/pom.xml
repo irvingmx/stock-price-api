@@ -4,12 +4,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>irvingmx.ninety_nine_api</groupId>
-        <artifactId>ninety_nine_api-parent</artifactId>
+        <groupId>irvingmx.stock-price-api</groupId>
+        <artifactId>stock-price-api-parent</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>ninety_nine_api-contract</artifactId>
+    <artifactId>stock-price-api-contract</artifactId>
 
     <dependencies>
         <dependency>
