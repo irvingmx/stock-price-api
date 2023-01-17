@@ -1,4 +1,4 @@
-package irvingmx.ninety_nine_api.prices;
+package irvingmx.stockpriceapi.prices;
 
 import org.springframework.web.bind.annotation.*;
 
